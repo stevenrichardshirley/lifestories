@@ -13,7 +13,7 @@ export default class TitleBar extends React.Component {
                 </div>
                 <nav id="nav">
                     <a href="#portfolio">Portfolio</a>
-                    <a href="#about">About Us</a>
+                    <a href="#about">About</a>
                     <a href="#contact">Contact</a>
                 </nav>
             </div>
