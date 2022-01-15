@@ -1,0 +1,2 @@
+ssh -i ~/.ssh/lifestorieslogin.pem ubuntu@3.129.125.24
+
