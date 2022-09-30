@@ -8,7 +8,7 @@ export default class TitleBar extends React.Component {
                     <img id="logo-img" src="images/ls1500.png"/>
                     <div id="logo-contact">
                         <p id="logo-phone">214-288-2262</p>
-                        <p id="logo-email">Chad@LifeStoriesCompany.com</p>
+                        <p id="logo-email">ChadJHarbour@yahoo.com</p>
                     </div>
                 </div>
                 <nav id="nav">
