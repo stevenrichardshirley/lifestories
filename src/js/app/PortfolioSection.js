@@ -23,21 +23,24 @@ export default class PortfolioSection extends React.Component {
             [0, 1].map(type =>
                 <PortfolioSubsection key={type} display={type}/>
             )
-        :   
+        :
             <PortfolioSubsection display={this.state.display}/>
         return (
             <section id="portfolio">
+            <div className="flipcenter">
+            <iframe style={{width: "800px", height: "500px"}} src="https://anyflip.com/bookcase/yyevu"  seamless="seamless" scrolling="no" frameBorder="0" allowtransparency="true" allowFullScreen={true} ></iframe>
+</div>
                 <h1 className="section-title">Testimonials / Portfolio</h1>
                 <nav id="portfolio-nav">
-                    <a 
+                    <a
                         onClick={() => this.setDisplay(2)}
                         className={navClass2}
                     >Show All</a>
-                    <a 
+                    <a
                         onClick={() => this.setDisplay(0)}
                         className={navClass0}
                     >Personal Memoirs</a>
-                    <a 
+                    <a
                         onClick={() => this.setDisplay(1)}
                         className={navClass1}
                     >Company Histories</a>

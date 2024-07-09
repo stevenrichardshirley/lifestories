@@ -508,3 +508,8 @@ h6 {
   padding-bottom: 20px;
   text-align: center;
 }
+#root .flipcenter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
