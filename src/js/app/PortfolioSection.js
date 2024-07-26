@@ -28,6 +28,8 @@ export default class PortfolioSection extends React.Component {
         return (
             <section id="portfolio">
             <div className="flipcenter">
+              <p class="casetext">Click on a book in the bookcase below.<br/>
+This opens the book—then click on the right edge<br/> of the pages to flip through the book.</p>
             <iframe style={{width: "800px", height: "500px"}} src="https://anyflip.com/bookcase/yyevu"  seamless="seamless" scrolling="no" frameBorder="0" allowtransparency="true" allowFullScreen={true} ></iframe>
 </div>
                 <h1 className="section-title">Testimonials / Portfolio</h1>
